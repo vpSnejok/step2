@@ -1,0 +1,96 @@
+.intro {
+  background-image: url("../img/intro-bgd.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 183px;
+  padding-bottom: 459px;
+  text-align: center;
+  position: relative;
+  @media (max-width: 992px) {
+    padding-top: 187px;
+    padding-bottom: 472px;
+  }
+}
+.intro__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 82px;
+  color: $main-color-light;
+  @media (max-width: 992px) {
+    font-size: 72px;
+    line-height: 72px;
+  }
+  @media (max-width: 480px) {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+.intro__text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: $main-color-purple-light;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  @media (max-width: 992px){
+    font-size: 24px;
+    line-height: 24px;
+  }
+  @media (max-width: 480px) {
+    font-size: 18px;
+    line-height: 24px;
+      text-transform: capitalize;
+  }
+}
+.intro__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $main-color-gray;
+  margin: 0;
+  @media (max-width: 992px){
+    font-size: 14px;
+    line-height: 14px;
+  }
+  @media (max-width: 480px) {
+    text-transform: uppercase;
+  }
+}
+.intro__order {
+  position: absolute;
+  top: 96%;
+  left: 0;
+  right: 0;
+}
+.intro__order-button {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 22px;
+  color: $main-color-light;
+  background: $main-color-purple-light;
+  border-radius: 40px;
+  padding: 23px 61px;
+  margin-bottom: 19px;
+  border: 1px solid $main-color-purple-light;
+  @media (max-width: 992px){
+    line-height: 23px;
+  }
+  @media (max-width: 480px) {
+    padding: 13px 29px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+  &:hover {
+    color: $main-color-purple-light;
+    background-color: $main-color-light;
+  }
+}
+.intro__order-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: $main-color-gray;
+  margin: 0;
+}

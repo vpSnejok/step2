@@ -1,0 +1,162 @@
+.pricing {
+  background: url(../img/background-pricing.png) center/cover no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  @media (max-width: 480px) {
+    padding-top: 30px;
+  }
+}
+.pricing__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  margin: 0;
+  color: $main-color-light;
+
+  @media (max-width: 480px) {
+    font-size: 26px;
+    line-height: 28px;
+  }
+}
+.pricing__list {
+  padding-left: 0;
+  gap: 15px;
+  margin-bottom: 0;
+  padding-bottom: 100px;
+  padding-top: 30px;
+
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr 1fr;
+  // align-items: center;
+  // justify-items: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (max-width: 1135px) {
+    gap: 5px;
+  }
+  @media (max-width: 992px) {
+    gap: 15px;
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+  }
+  @media (max-width: 600px) {
+    width: auto;
+  }
+  @media (max-width: 480px) {
+    width: 300px;
+  }
+}
+.pricing__item {
+  background: #6f5761;
+  width: 257px;
+  height: 457px;
+
+  @media (max-width: 1125px) {
+    width: 235px;
+  }
+  @media (max-width: 540px) {
+    width: 200px;
+  }
+  @media (max-width: 480px) {
+    width: 257px;
+  }
+}
+
+.pricing__item-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $main-color-light;
+  background: #7a6c7a;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 0;
+}
+.pricing__item-price {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: $main-color-light;
+  margin: 0;
+}
+.pricing__item-month {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $main-color-light;
+  padding-bottom: 70px;
+
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #8d81ac;
+    position: absolute;
+    top: 35px;
+    left: 40%;
+  }
+}
+.pricing__item-licence {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $main-color-light;
+
+  height: 44px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 35px;
+}
+.pricing__item-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $main-color-light;
+  background: #7a6c7a;
+
+  padding: 15px 37px;
+  border-radius: 30px;
+
+  margin-bottom: 10px;
+}
+.item-correct {
+  width: 299px;
+  height: 560px;
+  background: #463048;
+  mix-blend-mode: normal;
+  opacity: 0.84;
+  @media (max-width: 1125px) {
+    width: 250px;
+  }
+  @media (max-width: 540px) {
+    width: 225px;
+  }
+  @media (max-width: 480px) {
+    width: 299px;
+  }
+}
+
+.correct-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #3f2c41;
+}
+
+.correct-price {
+  font-size: 82px;
+  margin-top: 15px;
+}
+.correct-licence {
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
